@@ -4,8 +4,9 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.status(200).json(
     { 
-      nama:"Muhammad Kausar",
-      nim:"1957301007"
+      Nama:"Rahmat Dany Rizki",
+      NIM:"1957301027",
+      Kelas: "TI- 4B"
     }
   );
 });
